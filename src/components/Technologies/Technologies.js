@@ -1,22 +1,47 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
-  <Section id='tech'>
+const Technologies = () => (
+  <Section id="tech">
     <SectionDivider />
+    <br/>
     <SectionTitle>Technologies</SectionTitle>
+    <br/>
     <SectionText>
-      I've worked with a range of technologies in web wevelopement ranging from Back-end to Front-end.
+      I've worked with a range of technologies in web wevelopement ranging from
+      Back-end to Front-end.
     </SectionText>
     <List>
       <ListItem>
-        <DiFirebase size='3rem' />
+        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br/> React.js <br/> Next.js <br/> TypeScript
+            Experience with: <br /> React.js <br /> Next.js <br /> TypeScript
+            <br /> Redux <br /> HTML <br /> CSS
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size="3rem" />
+        <ListContainer>
+          <ListTitle>Back-End</ListTitle>
+          <ListParagraph>
+            Experience with: <br /> Node.js <br /> MongoDB <br /> Express
+            <br /> Databases 
           </ListParagraph>
         </ListContainer>
       </ListItem>
