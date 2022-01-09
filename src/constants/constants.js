@@ -22,9 +22,9 @@ export const projects = [
   {
     title: "Jobify",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aliquam illum sint omnis nam itaque, optio dicta vitae quaerat placeat.",
+      "A challanging full stack job search application that helps keep track of pending applications, interviews scheduled, jobs declined. ",
     image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
+    tags: ["React", "Redux", "Express", "MongoDB"],
     source: "https://google.com",
     visit: "https://google.com",
     id: 2,
@@ -32,11 +32,31 @@ export const projects = [
   {
     title: "Nae Tour Guide",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aliquam illum sint omnis nam itaque, optio dicta vitae quaerat placeat.",
+      "An interesting personal tour guide that shows restaurants, hotels and attractions. I learnt a lot about Google Map API and brushed up my knowledge with using different APIs. ",
     image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
+    tags: ["React", "Google Map API"],
     source: "https://github.com/nehyabah/nae-tour-guide",
     visit: "https://nae-tour-guide.vercel.app",
+    id: 3,
+  },
+  {
+    title: "Nae Estate",
+    description:
+      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, iusto iure. Suscipit deleniti perferendis esse omnis recusandae sit earum vitae. ",
+    image: "/images/5.jpg",
+    tags: ["React", "Redux", "Express", "MongoDB"],
+    source: "#",
+    visit: "#",
+    id: 3,
+  },
+  {
+    title: "Nae Admin-UI",
+    description:
+      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, iusto iure. Suscipit deleniti perferendis esse omnis recusandae sit earum vitae.",
+    image: "/images/6.jpg",
+    tags: ["React"],
+    source: "https://github.com/nehyabah/Admin-UI",
+    visit: "https://admin-ui-ivory.vercel.app/",
     id: 3,
   },
 ];
