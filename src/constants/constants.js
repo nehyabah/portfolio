@@ -5,7 +5,7 @@ export const projects = [
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aliquam illum sint omnis nam itaque, optio dicta vitae quaerat placeat.",
     image: "/images/1.jpg",
     tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
+    source: "https://github.com/nehyabah/cryptomaniac",
     visit: "https://google.com",
     id: 0,
   },
@@ -30,13 +30,13 @@ export const projects = [
     id: 2,
   },
   {
-    title: "Travel buddy",
+    title: "Nae Tour Guide",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aliquam illum sint omnis nam itaque, optio dicta vitae quaerat placeat.",
     image: "/images/4.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
+    source: "https://github.com/nehyabah/nae-tour-guide",
+    visit: "https://nae-tour-guide.vercel.app",
     id: 3,
   },
 ];
