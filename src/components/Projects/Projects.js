@@ -15,12 +15,12 @@ const Projects = () => (
             <Img src={image} />
             <TitleContent>
               <HeaderThree title>{title}</HeaderThree>
-              <Hr />
+              <br />
             </TitleContent>
             <CardInfo>{description}</CardInfo>
-            <br/>
+            <br />
             <div>
-              <TitleContent>Stack</TitleContent>
+            
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>

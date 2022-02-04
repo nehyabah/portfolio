@@ -1,58 +1,40 @@
 export const projects = [
   {
-    title: "Cryptomaniac",
+    title: "Audiophile",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aliquam illum sint omnis nam itaque, optio dicta vitae quaerat placeat.",
-    image: "/images/1.jpg",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://github.com/nehyabah/cryptomaniac",
-    visit: "https://google.com",
+      "A simple frontend E-commerce web application for purchasing headphones and speakers. Challange taken from Frontend Mentor to test skills in frontend development.",
+    image: "https://i.ibb.co/ScLGHLN/pexels-garrett-morrow-1649771-1.jpg",
+    tags: ["React"],
+    source: "https://github.com/nehyabah/audiophine",
+    visit: "https://audiophile-lcy4embf9-nehyabah.vercel.app/",
     id: 0,
   },
   {
     title: "E-Commerce",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam aliquam illum sint omnis nam itaque, optio dicta vitae quaerat placeat.",
+      "A fun but challanging fullstack web E-commerce application used to test my skills in Redux and state management. Also included Paypal API to implement payments.",
     image: "/images/2.jpg",
-    tags: ["React", "JavaScript"],
+    tags: ["React", "NodeJs", "Express", "MongoDB"],
     source: "https://github.com/nehyabah/Nae-shop",
     visit: "https://github.com/nehyabah/Nae-shop",
     id: 1,
   },
-  {
-    title: "Jobify",
-    description:
-      "A challanging full stack job search application that helps keep track of pending applications, interviews scheduled, jobs declined. ",
-    image: "/images/3.jpg",
-    tags: ["React", "Redux", "Express", "MongoDB"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
-  },
+
   {
     title: "Nae Tour Guide",
     description:
       "An interesting personal tour guide that shows restaurants, hotels and attractions. I learnt a lot about Google Map API and brushed up my knowledge with using different APIs. ",
-    image: "/images/4.jpg",
+    image: "https://i.ibb.co/x15yXg8/pexels-ylanite-koppens-697662.jpg",
     tags: ["React", "Google Map API"],
     source: "https://github.com/nehyabah/nae-tour-guide",
     visit: "https://nae-tour-guide.vercel.app",
     id: 3,
   },
-  {
-    title: "Nae Estate",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, iusto iure. Suscipit deleniti perferendis esse omnis recusandae sit earum vitae. ",
-    image: "/images/5.jpg",
-    tags: ["React", "Redux", "Express", "MongoDB"],
-    source: "#",
-    visit: "#",
-    id: 3,
-  },
+
   {
     title: "Nae Admin-UI",
     description:
-      " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, iusto iure. Suscipit deleniti perferendis esse omnis recusandae sit earum vitae.",
+      " A simple admin dashboard that can be used for any platform. Showcases skills in react. This project was used to learn Material UI for creating components.",
     image: "/images/6.jpg",
     tags: ["React"],
     source: "https://github.com/nehyabah/Admin-UI",
