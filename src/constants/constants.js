@@ -16,7 +16,7 @@ export const projects = [
     image: "/images/2.jpg",
     tags: ["React", "NodeJs", "Express", "MongoDB"],
     source: "https://github.com/nehyabah/Nae-shop",
-    visit: "https://github.com/nehyabah/Nae-shop",
+    visit: "https://naeshop.herokuapp.com/",
     id: 1,
   },
 

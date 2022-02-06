@@ -17,9 +17,9 @@ import {
 const Technologies = () => (
   <Section id="tech">
     <SectionDivider />
-    <br/>
+    <br />
     <SectionTitle>Technologies</SectionTitle>
-    <br/>
+    <br />
     <SectionText>
       I've worked with a range of technologies in web wevelopement ranging from
       Back-end to Front-end.
@@ -30,7 +30,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with: <br /> React.js <br /> Next.js <br /> TypeScript
+            Experience with: <br /> React.js <br /> TypeScript <br /> JavaScript
             <br /> Redux <br /> HTML <br /> CSS
           </ListParagraph>
         </ListContainer>
@@ -41,7 +41,7 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with: <br /> Node.js <br /> MongoDB <br /> Express
-            <br /> Databases 
+            <br /> Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
